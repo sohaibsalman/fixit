@@ -1,0 +1,67 @@
+
+
+
+body 
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+.heading-form 
+{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: $color-orange-1;
+    text-align: center;
+}
+
+.heading-white 
+{
+    color: white;
+}
+
+.heading-main 
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 150px;
+    letter-spacing: 20px;
+    font-weight: bold;
+    text-shadow: 10px 10px 10px rgba(black, .5);
+}
+
+.heading-sub 
+{
+    padding-top: 5px;
+    color: white;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    text-shadow: 2px 2px 2px rgba(black, .5);
+}
+
+.heading-primary 
+{
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.heading-primary--white 
+{
+    color: white;
+}
+
+.heading-secondary 
+{
+    color: white;
+    text-transform: uppercase;
+}
+p 
+{
+    font-size: 18px;
+}
