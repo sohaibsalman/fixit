@@ -18,7 +18,7 @@
     <title>FIXIT</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="65">
 
     <nav class="navbar navbar-expand-lg sticky-top ">
         <a class="navbar-brand mx-auto" href="#">
@@ -30,27 +30,27 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav  mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
+                    <a class="nav-link smooth-scroll active" href="#header">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about/index.html" target="_blank">How To</a>
+                    <a class="nav-link smooth-scroll" href="#how">How To</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="menu/index.html" target="_blank">Services</a>
+                    <a class="nav-link smooth-scroll" href="#services">Services</a>
                 </li>
                 <li class=" nav-item">
-                    <a class="nav-link" href="reservation/index.html" target="_blank">Fixer</a>
+                    <a class="nav-link smooth-scroll" href="#fixer">Fixer</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact/index.html" target="_blank">User</a>
+                    <a class="nav-link smooth-scroll" href="#user">User</a>
                 </li>
             </ul>
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#"> <i class="fa fa-user"></i> Login</a>
+                    <a class="nav-link" href="#"> <i class="fa fa-user" id="login-link"></i> Login</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"> <i class="fa fa-globe"></i> Sign Up</a>
+                    <a class="nav-link" href="#"> <i class="fa fa-globe" id="signup-link"></i> Sign Up</a>
                 </li>
             </ul>
         </div>
@@ -58,7 +58,7 @@
 
     <main>
         <!--Homepage Header Starts-->
-        <header class="section-header">
+        <header class="section-header" id="header">
             <div class="header">
                 <div class="position">
                     <div class="container">
@@ -154,7 +154,7 @@
 
 
         <!--How To section Starts-->
-        <section class="section-usage">
+        <section class="section-usage" id="how">
             <div class="heading" style="margin-bottom: 70px;">
                 <h1 class="heading-primary wow fadeInLeft">Need work done?</h1>
                 <hr class="wow fadeInRight">
@@ -199,7 +199,7 @@
         <!--How To section Ends-->
 
         <!--Services Section Starts-->
-        <section class="section-services">
+        <section class="section-services" id="services">
             <div class="heading">
                 <h1 class="heading-primary wow fadeInLeft">Browse Popular Services</h1>
                 <hr class="wow fadeInRight">
@@ -277,7 +277,7 @@
         <!--Services Section Ends-->
 
         <!-- Section Fixer Starts-->
-        <section class="section-fixer">
+        <section class="section-fixer" id="fixer">
             <div class="heading">
                 <h1 class="heading-primary heading-primary--white wow fadeInLeft">Work as Fixer</h1>
                 <hr class="wow fadeInRight">
@@ -348,7 +348,7 @@
         <!-- Section Fixer Ends-->
 
         <!-- Section User Starts -->
-        <section class="section-user">
+        <section class="section-user" id="user">
             <div class="heading">
                 <h1 class="heading-primary wow fadeInLeft">Use FIXIT as User</h1>
                 <hr class="wow fadeInRight">
@@ -516,6 +516,8 @@
     <script src="js/animation/wow.js"></script>
     <!--BootStrap JS LINK-->
     <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- Scroll Easing -->
+    <script src="js/easing/easing.js"></script>
     <!-- CUSTOM JS -->
     <script src="js/script.js"></script>
 
